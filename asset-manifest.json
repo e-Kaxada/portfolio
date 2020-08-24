@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/e-Kaxada.github.io/portfolio/static/css/main.562a95c7.chunk.css",
-    "main.js": "/e-Kaxada.github.io/portfolio/static/js/main.bdf14c88.chunk.js",
-    "main.js.map": "/e-Kaxada.github.io/portfolio/static/js/main.bdf14c88.chunk.js.map",
+    "main.css": "/e-Kaxada.github.io/portfolio/static/css/main.ae929171.chunk.css",
+    "main.js": "/e-Kaxada.github.io/portfolio/static/js/main.6f227fe3.chunk.js",
+    "main.js.map": "/e-Kaxada.github.io/portfolio/static/js/main.6f227fe3.chunk.js.map",
     "runtime-main.js": "/e-Kaxada.github.io/portfolio/static/js/runtime-main.37c0f9c0.js",
     "runtime-main.js.map": "/e-Kaxada.github.io/portfolio/static/js/runtime-main.37c0f9c0.js.map",
-    "static/js/2.d9e39423.chunk.js": "/e-Kaxada.github.io/portfolio/static/js/2.d9e39423.chunk.js",
-    "static/js/2.d9e39423.chunk.js.map": "/e-Kaxada.github.io/portfolio/static/js/2.d9e39423.chunk.js.map",
+    "static/css/2.4707e12a.chunk.css": "/e-Kaxada.github.io/portfolio/static/css/2.4707e12a.chunk.css",
+    "static/js/2.2eceaad3.chunk.js": "/e-Kaxada.github.io/portfolio/static/js/2.2eceaad3.chunk.js",
+    "static/js/2.2eceaad3.chunk.js.map": "/e-Kaxada.github.io/portfolio/static/js/2.2eceaad3.chunk.js.map",
     "index.html": "/e-Kaxada.github.io/portfolio/index.html",
-    "precache-manifest.6f161f57395a3ef8894fe1f6e1e2586f.js": "/e-Kaxada.github.io/portfolio/precache-manifest.6f161f57395a3ef8894fe1f6e1e2586f.js",
+    "precache-manifest.8026ef0167290e60a364be3593da7d1a.js": "/e-Kaxada.github.io/portfolio/precache-manifest.8026ef0167290e60a364be3593da7d1a.js",
     "service-worker.js": "/e-Kaxada.github.io/portfolio/service-worker.js",
-    "static/css/main.562a95c7.chunk.css.map": "/e-Kaxada.github.io/portfolio/static/css/main.562a95c7.chunk.css.map",
-    "static/js/2.d9e39423.chunk.js.LICENSE.txt": "/e-Kaxada.github.io/portfolio/static/js/2.d9e39423.chunk.js.LICENSE.txt"
+    "static/css/2.4707e12a.chunk.css.map": "/e-Kaxada.github.io/portfolio/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.ae929171.chunk.css.map": "/e-Kaxada.github.io/portfolio/static/css/main.ae929171.chunk.css.map",
+    "static/js/2.2eceaad3.chunk.js.LICENSE.txt": "/e-Kaxada.github.io/portfolio/static/js/2.2eceaad3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/e-Kaxada.github.io/portfolio/static/media/3131118.76fb8d27.jpg",
+    "static/media/Home.css": "/e-Kaxada.github.io/portfolio/static/media/background.25c30458.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.37c0f9c0.js",
-    "static/js/2.d9e39423.chunk.js",
-    "static/css/main.562a95c7.chunk.css",
-    "static/js/main.bdf14c88.chunk.js"
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.2eceaad3.chunk.js",
+    "static/css/main.ae929171.chunk.css",
+    "static/js/main.6f227fe3.chunk.js"
   ]
 }
