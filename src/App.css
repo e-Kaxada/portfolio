@@ -6,3 +6,10 @@
     /* overflow: hidden; */
     z-index: 1;
 }
+
+.combined {
+    background-image: url("./images/3131118.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: auto 100%;
+}

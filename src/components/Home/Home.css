@@ -7,6 +7,11 @@
     font-family: 'Montserrat', sans-serif;
     align-items: center;
     justify-content: space-around;
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    /* filter: blur(5px); */
 }
 
 .intro {
