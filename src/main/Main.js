@@ -127,6 +127,7 @@ const Main = () => {
                 </a> <a href="tobeput"><FontAwesomeIcon icon={faEye} id="eye-icon"/></a>
               </p>
             </div>
+            
           </div>
         </div>
       </section>
