@@ -1,7 +1,7 @@
 import React from "react";
 import "./main.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelopeOpen, faEye , faCode} from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faTwitter,
@@ -80,14 +80,53 @@ const Main = () => {
         <h1>Projects</h1>
         <div className="projects">
           <div className="projects-one">
-            <img src={Restaurant} alt="Enock" />
-
-            <img src={Blog} alt="Enock" />
-            <img src={Tour} alt="Enock" />
+            <div className="img_wrap">
+              <img src={Restaurant} alt="Enock" />
+              <p className="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="https://github.com/e-Kaxada" id="github">
+                  <FontAwesomeIcon icon={faCode} />
+                </a> <a href="tobeput"><FontAwesomeIcon icon={faEye} id="eye-icon"/></a>
+              </p>
+            </div>
+            <div className="img_wrap">
+              <img src={Blog} alt="Enock" />
+              <p className="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="https://github.com/e-Kaxada" id="github">
+                  <FontAwesomeIcon icon={faCode} />
+                </a> <a href="tobeput"><FontAwesomeIcon icon={faEye} id="eye-icon"/></a>
+              </p>
+            </div>
+            <div className="img_wrap">
+              <img src={Tour} alt="Enock" />
+              <p className="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="https://github.com/e-Kaxada" id="github">
+                  <FontAwesomeIcon icon={faCode} />
+                </a> <a href="tobeput"><FontAwesomeIcon icon={faEye} id="eye-icon"/></a>
+              </p>
+            </div>
           </div>
           <div className="projects-two">
-            <img src={Bot} alt="Enock" />
-            <img src={Ecommerce} alt="Enock" />
+            <div className="img_wrap">
+              <img src={Bot} alt="Enock" />
+              <p className="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="https://github.com/e-Kaxada" id="github">
+                  <FontAwesomeIcon icon={faCode} />
+                </a> <a href="tobeput"><FontAwesomeIcon icon={faEye} id="eye-icon"/></a>
+              </p>
+            </div>
+            <div className="img_wrap">
+              <img src={Ecommerce} alt="Enock" />
+              <p className="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="https://github.com/e-Kaxada" id="github">
+                  <FontAwesomeIcon icon={faCode} />
+                </a> <a href="tobeput"><FontAwesomeIcon icon={faEye} id="eye-icon"/></a>
+              </p>
+            </div>
           </div>
         </div>
       </section>
