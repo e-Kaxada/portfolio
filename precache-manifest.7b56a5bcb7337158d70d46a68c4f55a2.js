@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b97e204f9341b77a300a5cf3a8597fe",
+    "revision": "093a54b490326aefc8cdc9b4b6b9eb22",
     "url": "/e-Kaxada.github.io/portfolio/index.html"
   },
   {
-    "revision": "bf21f69b2071b375d09e",
-    "url": "/e-Kaxada.github.io/portfolio/static/css/main.41559438.chunk.css"
+    "revision": "547fe6564fc78c059cd8",
+    "url": "/e-Kaxada.github.io/portfolio/static/css/main.dea1d7c5.chunk.css"
   },
   {
-    "revision": "b863d67df7c6d958dede",
-    "url": "/e-Kaxada.github.io/portfolio/static/js/2.d9faadde.chunk.js"
+    "revision": "f80dbca18661c9400d42",
+    "url": "/e-Kaxada.github.io/portfolio/static/js/2.fef0f1b3.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/e-Kaxada.github.io/portfolio/static/js/2.d9faadde.chunk.js.LICENSE.txt"
+    "url": "/e-Kaxada.github.io/portfolio/static/js/2.fef0f1b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf21f69b2071b375d09e",
-    "url": "/e-Kaxada.github.io/portfolio/static/js/main.ac9a76ea.chunk.js"
+    "revision": "547fe6564fc78c059cd8",
+    "url": "/e-Kaxada.github.io/portfolio/static/js/main.1e642251.chunk.js"
   },
   {
     "revision": "498bdfad06e24e36a85e",
