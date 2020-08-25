@@ -24,7 +24,7 @@ const Main = () => {
           Hello! <br /> I'm Enock Kasaadha. <br /> A UI/UX Designer & <br />A
           Frontend Deveoper.
         </h1>
-        <p className="description">
+        <p className="about-description">
           I develop, design and redesign websites and web applications to meet
           your custom needs.
         </p>
@@ -82,7 +82,7 @@ const Main = () => {
           <div className="projects-one">
             <div className="img_wrap">
               <img src={Restaurant} alt="Enock" />
-              <p className="description">
+              <p className="project-description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="https://github.com/e-Kaxada" id="github">
                   <FontAwesomeIcon icon={faCode} />
@@ -91,7 +91,7 @@ const Main = () => {
             </div>
             <div className="img_wrap">
               <img src={Blog} alt="Enock" />
-              <p className="description">
+              <p className="project-description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="https://github.com/e-Kaxada" id="github">
                   <FontAwesomeIcon icon={faCode} />
@@ -100,7 +100,7 @@ const Main = () => {
             </div>
             <div className="img_wrap">
               <img src={Tour} alt="Enock" />
-              <p className="description">
+              <p className="project-description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="https://github.com/e-Kaxada" id="github">
                   <FontAwesomeIcon icon={faCode} />
@@ -111,7 +111,7 @@ const Main = () => {
           <div className="projects-two">
             <div className="img_wrap">
               <img src={Bot} alt="Enock" />
-              <p className="description">
+              <p className="project-description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="https://github.com/e-Kaxada" id="github">
                   <FontAwesomeIcon icon={faCode} />
@@ -120,7 +120,7 @@ const Main = () => {
             </div>
             <div className="img_wrap">
               <img src={Ecommerce} alt="Enock" />
-              <p className="description">
+              <p className="project-description">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a href="https://github.com/e-Kaxada" id="github">
                   <FontAwesomeIcon icon={faCode} />
@@ -131,6 +131,30 @@ const Main = () => {
           </div>
         </div>
       </section>
+      <footer>
+          <h2>Let's meet and talk</h2>
+          <h3>How do you take your coffee?</h3>
+          <div className="footer-icons">
+            <a href="https://github.com/e-Kaxada" id="github">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/enock-kasaadha-b09705146/"
+              id="linkedIn"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="mailto:enocksdha@gmail.com" id="email">
+              <FontAwesomeIcon icon={faEnvelopeOpen} />
+            </a>
+            <a href="https://twitter.com/EKaxada" id="twitter">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a href="https://dribbble.com/eKaxada" id="dribbble">
+              <FontAwesomeIcon icon={faDribbble} />
+            </a>
+          </div>
+        </footer>
     </div>
   );
 };

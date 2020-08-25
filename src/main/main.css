@@ -12,7 +12,7 @@
 html,
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(66, 69, 70);
+    background-color: rgb(74, 81, 83);
     font-size: 12px;
     letter-spacing: 1px;
     max-width: 100%;
@@ -31,14 +31,14 @@ body {
     max-width: 35rem;
     grid-column: 1/2;
     grid-row: 2/3;
-    color: white;
+    color: black;
 }
 
 .about>h1 {
     font-size: 2.5rem;
 }
 
-.description {
+.about-description {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.5rem;
@@ -178,7 +178,7 @@ progress[value]::-webkit-progress-value {
 } */
 
 .img_wrap {
-    width: 100%;
+    max-width: 100%;
     position: relative;
 }
 
@@ -188,7 +188,7 @@ progress[value]::-webkit-progress-value {
     margin: 10px;
 }
 
-.description {
+.project-description {
     vertical-align: middle;
     text-align: center;
     position: absolute;
@@ -206,13 +206,109 @@ progress[value]::-webkit-progress-value {
     transition: opacity .2s, visibility .2s;
 }
 
-.img_wrap:hover .description {
+.img_wrap:hover .project-description {
     visibility: visible;
     opacity: 1;
 }
 
-.description>a {
+.project-description>a {
     color: white;
     font-size: 3rem;
     margin: 7px 10px 7px 10px;
+}
+
+footer {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer>h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4rem;
+}
+
+footer>h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
+.footer-icons {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-icons>a {
+    font-size: 6rem;
+    margin: 6px;
+    color: rgb(18, 22, 22);
+    ;
+}
+
+
+/* phone media queries */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    html,
+    body {
+        font-size: 6px;
+    }
+    .main {
+        margin: 1rem 3rem 1rem 3rem;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    .about {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        max-width: 100%;
+        text-align: center;
+    }
+    .about>h1 {
+        font-size: 4.2rem;
+    }
+    .content {
+        width: 100%;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .projects {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .projects-one {
+        grid-column: 1/2;
+        margin: 0;
+    }
+    .projects-two {
+        grid-column: 1/2;
+        margin: 0;
+    }
+    .about-description {
+        font-size: 3rem;
+    }
+    .about>img {
+        height: 40rem;
+    }
+    .skills>h2 {
+        font-size: 4rem;
+    }
+    .skills>p {
+        font-size: 3rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    progress[value] {
+        width: 100%;
+    }
+    .contacts {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
 }
